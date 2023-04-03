@@ -526,6 +526,14 @@ p strong {
     border-radius: 15px;
 
 }
+.filter{
+    list-style: none;
+    color:rgb(255, 255, 255);
+    font-size: .85em;
+    font-weight: 570;
+    background-color: #0f0028;
+    border-radius: 15px;
+}
 
 .project-filter{
     display : flex;

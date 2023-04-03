@@ -41,6 +41,7 @@
       <!-- <button id="voiceButton">Speak</button> -->
       <img src="Untitled-2.svg" id="mountains" />
     </section>
+    
     <div id="about">
       <h1 class="about heading">About Me</h1>
 
@@ -228,6 +229,8 @@
         <h3>My Projects</h3>
       </div>
       <ul class="project-filter">
+        <!-- <li><img src = "icons8-funnel-50.png"></li> -->
+        <li class = "filter">Filter by:</li> 
         <li class="list active" data-filter="all">All</li>
         <li class="list" data-filter="webd">Website Development</li>
         <li class="list" data-filter="des">Design</li>
@@ -307,6 +310,10 @@
       <a href="https://github.com/YajatGupta22" target="_blank">GitHub</a>
 
       <a href="yajat21366@iiitd.ac.in" target="_blank">Mail Me</a>
+
+      <a href="yajat21366@iiitd.ac.in" target="_blank">Download CV</a>
+
+      <a href="https://coder22gupta.github.io/WEBSITE/" target="_blank">Portfolio</a>
     </div>
 
     <!-- CODE FOR PARTICLE EFFECT -->
@@ -510,9 +517,9 @@
 
     <!-- CODE FOR scroll to hello -->
     <script>
-      alert(
-        "Please use Google Chrome & Allow Microphone Permission for better experience!"
-      );
+      // alert(
+      //   "Please use Google Chrome & Allow Microphone Permission for better experience!"
+      // );
       if ("webkitSpeechRecognition" in window) {
         var recognition = new webkitSpeechRecognition();
         recognition.continuous = true;
